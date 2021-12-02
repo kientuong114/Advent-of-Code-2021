@@ -9,7 +9,7 @@ Merry Christmas Everyone! :christmas_tree:
 | Day |      Solved Part 1?        | Solved Part 2? |  Comment |
 | --- | --- | --- | --- |
 |   1  | :heavy_check_mark: | :heavy_check_mark: |  |
-|   2  | :x: | :x: |  |
+|   2  | :heavy_check_mark: | :heavy_check_mark: |  |
 |   3  | :x: | :x: |  |
 |   4  | :x: | :x: |  |
 |   5  | :x: | :x: |  |
