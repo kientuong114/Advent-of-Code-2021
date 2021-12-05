@@ -1,21 +1,10 @@
 use std::collections::HashSet;
 use itertools::Itertools;
-use regex::Regex;
 
 fn split_line(line: &&str) -> Vec<i32> {
-    let re = Regex::new(r#"^\s*(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)$"#).unwrap();
-
-    re
-        .captures(line)
-        .unwrap()
-        .iter()
-        .skip(1)
-        .map(|n| n
-            .unwrap()
-            .as_str()
-            .parse::<i32>()
-            .unwrap()
-        )
+    line
+        .split_whitespace()
+        .map(|n| n.parse::<i32>().unwrap())
         .collect_vec()
 }
 
